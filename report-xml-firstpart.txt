@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<report content_type="text/xml" extension="xml" id="d551f990-a9d0-4eb0-8405-bd2f5db9905f" format_id="5057e5cc-b825-11e4-9d0e-28d24461215b" config_id="">
+  <owner>
+    <name>admin</name>
+  </owner>
+  <name>2025-10-04T13:43:26Z</name>
+  <comment/>
+  <creation_time>2025-10-04T13:43:26Z</creation_time>
+  <modification_time>2025-10-04T14:23:59Z</modification_time>
+  <writable>0</writable>
+  <in_use>0</in_use>
+  <task id="234ba7fc-7b04-440f-a27b-0da1c5236da5"/>
+  <report_format id="5057e5cc-b825-11e4-9d0e-28d24461215b">
+    <name>Anonymous XML</name>
+  </report_format>
+  <report id="d551f990-a9d0-4eb0-8405-bd2f5db9905f">
+    <gmp>
+      <version>22.7</version>
+    </gmp>
+    <sort>
+      <field>severity<order>descending</order></field>
+    </sort>
+    <filters id="0">
+      <term>apply_overrides=0 levels=hml rows=1000 min_qod=70 first=1 sort-reverse=severity notes=1 overrides=1</term>
+      <filter>High</filter>
+      <filter>Medium</filter>
+      <filter>Low</filter>
+      <keywords>
+        <keyword>
+          <column>apply_overrides</column>
+          <relation>=</relation>
+          <value>0</value>
+        </keyword>
+        <keyword>
+          <column>levels</column>
+          <relation>=</relation>
+          <value>hml</value>
+        </keyword>
+        <keyword>
+          <column>rows</column>
+          <relation>=</relation>
+          <value>1000</value>
+        </keyword>
+        <keyword>
+          <column>min_qod</column>
+          <relation>=</relation>
+          <value>70</value>
+        </keyword>
+        <keyword>
+          <column>first</column>
+          <relation>=</relation>
+          <value>1</value>
+        </keyword>
+        <keyword>
+          <column>sort-reverse</column>
+          <relation>=</relation>
+          <value>severity</value>
+        </keyword>
+        <keyword>
+          <column>notes</column>
+          <relation>=</relation>
+          <value>1</value>
+        </keyword>
+        <keyword>
+          <column>overrides</column>
+          <relation>=</relation>
+          <value>1</value>
+        </keyword>
+      </keywords>
+    </filters>
+    <scan_run_status>Done</scan_run_status>
+    <hosts>
+      <count>1</count>
+    </hosts>
+    <closed_cves>
+      <count>0</count>
+    </closed_cves>
+    <vulns>
+      <count>583</count>
+    </vulns>
+    <os>
+      <count>1</count>
+    </os>
+    <apps>
+      <count>20</count>
+    </apps>
+    <ssl_certs>
+      <count>2</count>
+    </ssl_certs>
+    <task id="234ba7fc-7b04-440f-a27b-0da1c5236da5">
+      <comment/>
+      <target id="e37d3a60-84a6-40f5-9ec5-a006a8a1455e">
+        <trash>0</trash>
+        <name>Metasploitable-192.168.1.3</name>
+        <comment/>
+      </target>
+      <progress>100</progress>
+    </task>
+    <timestamp>2025-10-04T13:43:26Z</timestamp>
+    <scan_start>2025-10-04T13:44:04Z</scan_start>
+    <timezone>Coordinated Universal Time</timezone>
+    <timezone_abbrev>UTC</timezone_abbrev>
+    <ports max="1000" start="1">
+      <count>23</count>
+      <port>512/tcp<host>127.0.0.1</host><severity>10.0</severity><threat>High</threat></port>
+      <port>514/tcp<host>127.0.0.1</host><severity>7.5</severity><threat>High</threat></port>
+      <port>8787/tcp<host>127.0.0.1</host><severity>10.0</severity><threat>High</threat></port>
+      <port>6697/tcp<host>127.0.0.1</host><severity>8.1</severity><threat>High</threat></port>
+      <port>23/tcp<host>127.0.0.1</host><severity>4.8</severity><threat>Medium</threat></port>
+      <port>1524/tcp<host>127.0.0.1</host><severity>10.0</severity><threat>High</threat></port>
+      <port>8009/tcp<host>127.0.0.1</host><severity>9.8</severity><threat>High</threat></port>
+      <port>5432/tcp<host>127.0.0.1</host><severity>9.0</severity><threat>High</threat></port>
+      <port>25/tcp<host>127.0.0.1</host><severity>6.8</severity><threat>Medium</threat></port>
+      <port>6200/tcp<host>127.0.0.1</host><severity>9.8</severity><threat>High</threat></port>
+      <port>general/tcp<host>127.0.0.1</host><severity>10.0</severity><threat>High</threat></port>
+      <port>3632/tcp<host>127.0.0.1</host><severity>9.3</severity><threat>High</threat></port>
+      <port>22/tcp<host>127.0.0.1</host><severity>5.3</severity><threat>Medium</threat></port>
+      <port>5900/tcp<host>127.0.0.1</host><severity>9.0</severity><threat>High</threat></port>
+      <port>3306/tcp<host>127.0.0.1</host><severity>9.8</severity><threat>High</threat></port>
+      <port>513/tcp<host>127.0.0.1</host><severity>10.0</severity><threat>High</threat></port>
+      <port>21/tcp<host>127.0.0.1</host><severity>9.8</severity><threat>High</threat></port>
+      <port>80/tcp<host>127.0.0.1</host><severity>10.0</severity><threat>High</threat></port>
+      <port>2121/tcp<host>127.0.0.1</host><severity>7.5</severity><threat>High</threat></port>
+      <port>445/tcp<host>127.0.0.1</host><severity>6.0</severity><threat>Medium</threat></port>
+      <port>general/icmp<host>127.0.0.1</host><severity>2.1</severity><threat>Low</threat></port>
+    </ports>
+    <results max="1000" start="1">
+      <result id="390bf0f2-991a-40ce-bc04-c813f4312933">
+        <name>rlogin Passwordless Login</name>
+        <modification_time>2025-10-04T14:04:55Z</modification_time>
+        <comment/>
+        <creation_time>2025-10-04T14:04:55Z</creation_time>
+        <host>127.0.0.1<asset asset_id="4b9679bc-5d15-45e9-a89c-6932417611cd"/><hostname/></host>
+        <port>513/tcp</port>
+        <nvt oid="1.3.6.1.4.1.25623.1.0.113766">
+          <type>nvt</type>
+          <name>rlogin Passwordless Login</name>
+          <family>Gain a shell remotely</family>
+          <cvss_base>10.0</cvss_base>
+          <severities score="10.0">
+            <severity type="cvss_base_v2">
+              <origin/>
+              <date>2020-09-30T08:50:29Z</date>
+              <score>10.0</score>
+              <value>AV:N/AC:L/Au:N/C:C/I:C/A:C</value>
+            </severity>
+          </severities>
+          <tags>cvss_base_vector=AV:N/AC:L/Au:N/C:C/I:C/A:C|summary=The rlogin service allows root access without a password.|insight=|affected=|impact=This vulnerability allows an attacker to gain
+  complete control over the target system.|solution=Disable the rlogin service and use alternatives like SSH instead.|vuldetect=Checks if a vulnerable version is present on the target host.|solution_type=Mitigation</tags>
+          <solution type="Mitigation">Disable the rlogin service and use alternatives like SSH instead.</solution>
+        </nvt>
+        <scan_nvt_version>2020-09-30T09:30:12Z</scan_nvt_version>
+        <threat>High</threat>
+        <severity>10.0</severity>
+        <qod>
+          <value>80</value>
+          <type/>
+        </qod>
+        <original_threat>High</original_threat>
+        <original_severity>10</original_severity>
+        <compliance>undefined</compliance>
+      </result>
+      <result id="3b2ba7c7-e70c-4f83-b77c-36a8672c2bd1">
+        <name>The rexec service is running</name>
+        <modification_time>2025-10-04T14:08:00Z</modification_time>
+        <comment/>
+        <creation_time>2025-10-04T14:08:00Z</creation_time>
+        <host>127.0.0.1<asset asset_id="4b9679bc-5d15-45e9-a89c-6932417611cd"/><hostname/></host>
+        <port>512/tcp</port>
+        <nvt oid="1.3.6.1.4.1.25623.1.0.100111">
+          <type>nvt</type>
+          <name>The rexec service is running</name>
+          <family>Useless services</family>
+          <cvss_base>10.0</cvss_base>
+          <severities score="10.0">
+            <severity type="cvss_base_v2">
+              <origin/>
+              <date>2020-09-29T10:10:42Z</date>
+              <score>10.0</score>
+              <value>AV:N/AC:L/Au:N/C:C/I:C/A:C</value>
+            </severity>
+          </severities>
+          <tags>cvss_base_vector=AV:N/AC:L/Au:N/C:C/I:C/A:C|summary=This remote host is running a rexec service.|insight=rexec (remote execution client for an exec server) has the same
+  kind of functionality that rsh has: you can execute shell commands on a remote computer.
+
+  The main difference is that rexec authenticate by reading the username and password *unencrypted*
+  from the socket.|affected=|impact=|solution=Disable the rexec service and use alternatives like SSH
+  instead.|vuldetect=Checks whether an rexec service is exposed on the target
+  host.|solution_type=Mitigation</tags>
+          <solution type="Mitigation">Disable the rexec service and use alternatives like SSH
+  instead.</solution>
+          <refs>
+            <ref type="cve" id="CVE-1999-0618"/>
+          </refs>
+        </nvt>
+        <scan_nvt_version>2023-09-12T05:05:19Z</scan_nvt_version>
+        <threat>High</threat>
+        <severity>10.0</severity>
+        <qod>
+          <value>80</value>
+          <type/>
+        </qod>
+        <original_threat>High</original_threat>
+        <original_severity>10</original_severity>
+        <compliance>undefined</compliance>
+      </result>
+      <result id="98ec2d28-924f-417b-85db-f039a67800c0">
+        <name>TWiki XSS and Command Execution Vulnerabilities</name>
+        <modification_time>2025-10-04T14:09:03Z</modification_time>
+        <comment/>
+        <creation_time>2025-10-04T14:09:03Z</creation_time>
+        <host>127.0.0.1<asset asset_id="4b9679bc-5d15-45e9-a89c-6932417611cd"/><hostname/></host>
+        <port>80/tcp</port>
+        <nvt oid="1.3.6.1.4.1.25623.1.0.800320">
+          <type>nvt</type>
+          <name>TWiki XSS and Command Execution Vulnerabilities</name>
+          <family>Web application abuses</family>
+          <cvss_base>10.0</cvss_base>
+          <severities score="10.0">
+            <severity type="cvss_base_v2">
+              <origin/>
+              <date>2008-12-16T15:12:00Z</date>
+              <score>10.0</score>
+              <value>AV:N/AC:L/Au:N/C:C/I:C/A:C</value>
+            </severity>
+          </severities>
+          <tags>cvss_base_vector=AV:N/AC:L/Au:N/C:C/I:C/A:C|summary=TWiki is prone to Cross-Site Scripting (XSS) and Command Execution Vulnerabilities.|insight=The flaws are due to:
+
+  - %URLPARAM{}% variable is not properly sanitized which lets attackers
+    conduct cross-site scripting attack.
+
+  - %SEARCH{}% variable is not properly sanitised before being used in an
+    eval() call which lets the attackers execute perl code through eval
+    injection attack.|affected=TWiki, TWiki version prior to 4.2.4.|impact=Successful exploitation could allow execution of arbitrary script code or
+  commands. This could let attackers steal cookie-based authentication credentials or compromise the affected
+  application.|solution=Upgrade to version 4.2.4 or later.|vuldetect=|solution_type=VendorFix</tags>
+          <solution type="VendorFix">Upgrade to version 4.2.4 or later.</solution>
+          <refs>
+            <ref type="cve" id="CVE-2008-5304"/>
+            <ref type="cve" id="CVE-2008-5305"/>
+            <ref type="url" id="http://twiki.org/cgi-bin/view/Codev.SecurityAlert-CVE-2008-5304"/>
+            <ref type="url" id="http://www.securityfocus.com/bid/32668"/>
+            <ref type="url" id="http://www.securityfocus.com/bid/32669"/>
+            <ref type="url" id="http://twiki.org/cgi-bin/view/Codev/SecurityAlert-CVE-2008-5305"/>
+          </refs>
+        </nvt>
+        <scan_nvt_version>2024-03-01T14:37:10Z</scan_nvt_version>
+        <threat>High</threat>
+        <severity>10.0</severity>
+        <qod>
+          <value>80</value>
+          <type/>
+        </qod>
+        <original_threat>High</original_threat>
+        <original_severity>10</original_severity>
+        <compliance>undefined</compliance>
+      </result>
+      <result id="1eed5761-b8dc-46d6-bd36-a9c9a7e1f766">
+        <name>Possible Backdoor: Ingreslock</name>
+        <modification_time>2025-10-04T14:13:42Z</modification_time>
+        <comment/>
+        <creation_time>2025-10-04T14:13:42Z</creation_time>
+        <host>127.0.0.1<asset asset_id="4b9679bc-5d15-45e9-a89c-6932417611cd"/><hostname/></host>
+        <port>1524/tcp</port>
+        <nvt oid="1.3.6.1.4.1.25623.1.0.103549">
+          <type>nvt</type>
+          <name>Possible Backdoor: Ingreslock</name>
+          <family>Gain a shell remotely</family>
+          <cvss_base>10.0</cvss_base>
+          <severities score="10.0">
+            <severity type="cvss_base_v2">
+              <origin/>
+              <date>2012-08-22T14:21:38Z</date>
+              <score>10.0</score>
+              <value>AV:N/AC:L/Au:N/C:C/I:C/A:C</value>
+            </severity>
+          </severities>
+          <tags>cvss_base_vector=AV:N/AC:L/Au:N/C:C/I:C/A:C|summary=A backdoor is installed on the remote host.|insight=|affected=|impact=Attackers can exploit this issue to execute arbitrary commands in the
+  context of the application. Successful attacks will compromise the affected isystem.|solution=A whole cleanup of the infected system is recommended.|vuldetect=|solution_type=Workaround</tags>
+          <solution type="Workaround">A whole cleanup of the infected system is recommended.</solution>
+        </nvt>
+        <scan_nvt_version>2023-07-25T05:05:58Z</scan_nvt_version>
+        <threat>High</threat>
+        <severity>10.0</severity>
+        <qod>
+          <value>99</value>
+          <type/>
+        </qod>
+        <original_threat>High</original_threat>
+        <original_severity>10</original_severity>
+        <compliance>undefined</compliance>
+      </result>
+      <result id="8830c9a0-61da-4754-8dfc-20c8ecf0e406">
+        <name>Operating System (OS) End of Life (EOL) Detection</name>
+        <modification_time>2025-10-04T14:05:16Z</modification_time>
+        <comment/>
+        <creation_time>2025-10-04T14:05:16Z</creation_time>
+        <detection>
+          <result id="06ea5cbe-96b5-4331-b6d6-3e82b9fbc5ed">
+            <details>

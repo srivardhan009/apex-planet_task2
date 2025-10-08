@@ -1,0 +1,9 @@
+Firewall Basics Demo Summary
+----------------------------
+- iptables-before.txt : Original rules
+- iptables-after.txt  : With DROP rule (blocks port 2121)
+- iptables-restored.txt : Rule removed (restored state)
+- before-block-2121.txt : Nmap result before rule (port open)
+- after-block-2121.txt  : Nmap result after rule (port filtered)
+Rule used:
+  sudo iptables -I OUTPUT -d 192.168.56.101 -p tcp --dport 2121 -j DROP

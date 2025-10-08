@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Sun Oct  5 03:19:57 2025 as: /usr/lib/nmap/nmap --privileged -sn -oG /home/kali/task2/ping-scan.gnmap 192.168.56.0/24
+Host: 192.168.56.100 ()	Status: Up
+Host: 192.168.56.101 ()	Status: Up
+Host: 192.168.56.102 ()	Status: Up
+# Nmap done at Sun Oct  5 03:20:27 2025 -- 256 IP addresses (3 hosts up) scanned in 30.18 seconds
